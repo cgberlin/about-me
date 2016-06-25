@@ -1,0 +1,107 @@
+﻿
+
+
+
+
+
+
+
+.masthead-heading {
+   font-family: 'Hammersmith One', sans-    serif;
+   margin: 0;                      
+   font-size: 6rem;
+   color:white;
+   text-shadow: 1px 1px 1px #000, 3px 3px 5px black;
+}
+.masthead-intro {
+  font-family: 'Hammersmith One', sans-serif;
+  margin: 0;                    
+  font-size:3rem;
+  color:white;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px black;
+}
+  
+.masthead {
+  padding:40px 0;
+  background-image:url('https://static.pexels.com/photos/3937/sea-black-and-white-ocean-photographer.jpeg');
+  background-size: cover ;
+  background-repeat:no-repeat;
+  border-top: 2rem double black;
+  text-align:center;
+  width: 100%;
+  height:100vh;
+}
+
+.introduction {
+  padding:0;
+  margin:0;
+  border: .5rem solid black;
+  
+}
+
+.general-style {
+  
+  font-size: 1.5rem;
+  letter-spacing: 1px; 
+  background-color:black;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 16px;
+  
+}
+
+html {
+  background:grey;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.bold-style{
+  font-size: 3rem;
+  letter-spacing: 1px; 
+  background-color:black;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 1rem;
+  text-decoration:underline;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px black;
+}
+
+
+
+.where-from, .more-about{
+  margin:0;
+  padding:0;
+  border: .5rem solid black;
+}
+
+.more-about {
+  letter-spacing: 1px; 
+}
+
+li:first-child {
+  font-size: 1.5rem;
+  letter-spacing:1px;
+  font-weight:bold;
+  text-shadow: 1px 1px 1px #000;
+  
+}
+
+li {
+  display:inline;
+  padding: 24px;
+  font-size: 1rem;
+}
+a{
+  color:white;
+}
+a:hover {
+  
+  color:white;
+  text-shadow: 1px 1px 1px #000;
+}
+
+footer {
+  text-align:center;
+}
+
