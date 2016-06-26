@@ -1,26 +1,18 @@
-﻿
-
-
-
-
-
-
-
 .masthead-heading {
    font-family: 'Hammersmith One', sans-    serif;
-   margin: 0;                      
+   margin: 0;
    font-size: 6rem;
    color:white;
    text-shadow: 1px 1px 1px #000, 3px 3px 5px black;
 }
 .masthead-intro {
   font-family: 'Hammersmith One', sans-serif;
-  margin: 0;                    
+  margin: 0;
   font-size:3rem;
   color:white;
   text-shadow: 1px 1px 1px #000, 3px 3px 5px black;
 }
-  
+
 .masthead {
   padding:40px 0;
   background-image:url('https://static.pexels.com/photos/3937/sea-black-and-white-ocean-photographer.jpeg');
@@ -36,18 +28,18 @@
   padding:0;
   margin:0;
   border: .5rem solid black;
-  
+
 }
 
 .general-style {
-  
+
   font-size: 1.5rem;
-  letter-spacing: 1px; 
+  letter-spacing: 1px;
   background-color:black;
   background: rgba(0, 0, 0, 0.7);
   color: white;
   padding: 16px;
-  
+
 }
 
 html {
@@ -58,7 +50,7 @@ html {
 
 .bold-style{
   font-size: 3rem;
-  letter-spacing: 1px; 
+  letter-spacing: 1px;
   background-color:black;
   background: rgba(0, 0, 0, 0.7);
   color: white;
@@ -76,7 +68,7 @@ html {
 }
 
 .more-about {
-  letter-spacing: 1px; 
+  letter-spacing: 1px;
 }
 
 li:first-child {
@@ -84,7 +76,7 @@ li:first-child {
   letter-spacing:1px;
   font-weight:bold;
   text-shadow: 1px 1px 1px #000;
-  
+
 }
 
 li {
@@ -96,7 +88,7 @@ a{
   color:white;
 }
 a:hover {
-  
+
   color:white;
   text-shadow: 1px 1px 1px #000;
 }
@@ -105,3 +97,8 @@ footer {
   text-align:center;
 }
 
+@media (max-width: 700px) {
+  html {
+    font-size: 10px;
+  }
+}
