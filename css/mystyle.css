@@ -45,6 +45,8 @@
 html {
   background:grey;
   font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 
@@ -71,34 +73,45 @@ html {
   letter-spacing: 1px;
 }
 
-li:first-child {
-  font-size: 1.5rem;
-  letter-spacing:1px;
-  font-weight:bold;
-  text-shadow: 1px 1px 1px #000;
-
-}
-
-li {
-  display:inline;
-  padding: 24px;
-  font-size: 1rem;
-}
-a{
+.fa-circle-thin {
   color:white;
+  border:2px;
 }
-a:hover {
 
-  color:white;
+
+.fa-stack:hover {
   text-shadow: 1px 1px 1px #000;
+  cursor:pointer;
+}
+
+.fa-envelope, .fa-facebook, .fa-linkedin {
+  color:white;
 }
 
 footer {
   text-align:center;
+  border: .5rem solid black;
 }
 
-@media (max-width: 700px) {
-  html {
-    font-size: 10px;
-  }
+h5 {
+  color:white;
+  font-size:1rem;
+  font-weight:300;
+  margin-bottom:-1em;
+}
+
+.icons {
+  padding:2rem;
+}
+
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 6rem;
+    }
+    .masthead-intro {
+      font-size:3rem;
+    }
 }
