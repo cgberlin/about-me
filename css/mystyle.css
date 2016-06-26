@@ -91,17 +91,21 @@ html {
 footer {
   text-align:center;
   border: .5rem solid black;
+  text-shadow: 1px 1px 1px #000;
 }
 
 h5 {
   color:white;
-  font-size:1rem;
-  font-weight:300;
+  font-size:1.5rem;
+  font-weight:450;
   margin-bottom:-1em;
+
 }
 
 .icons {
   padding:2rem;
+  display:inline-flex;
+  font-size:2rem;
 }
 
 @media only screen and (max-width: 1100px) {
@@ -109,23 +113,24 @@ h5 {
         padding: 3em 0;
     }
     .masthead-heading {
-        font-size: 12rem;
+        font-size: 7em;
     }
     .masthead-intro {
       font-size:4em;
     }
 
     footer {
-      font-size:4em;
+      font-size:1.5rem;
     }
     h5 {
       margin-bottom:0;
-      font-size:1em;
+      font-size:1.5rem;
     }
     .bold-style {
-      font-size:6rem;
-    }
-    .general-style {
       font-size:3rem;
     }
+    .general-style {
+      font-size:1.5rem;
+    }
+
 }
