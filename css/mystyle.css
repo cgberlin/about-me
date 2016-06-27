@@ -15,7 +15,7 @@
 
 .masthead {
   padding:40px 0;
-  background-image:url('http://jotaoncode.herokuapp.com/common-images/sea-black-and-white-ocean-photographer-1100.jpeg');
+  background-image:url('bandw1100.jpeg');
   background-size: cover ;
   background-repeat:no-repeat;
   border-top: 2rem double black;
@@ -134,3 +134,18 @@ h5 {
     }
 
 }
+
+@media only screen and (max-width: 1000px) {
+  .masthead {
+    background-image:url('bandw800.jpeg');
+  }
+
+@media only screen and (max-width: 700px) {
+  .masthead {
+    background-image:url('bandw500.jpeg');
+  }
+
+@media only screen and (max-width: 500px) {
+  .masthead {
+    background-image:url('bandw.jpeg');
+  }
